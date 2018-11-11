@@ -1,0 +1,5 @@
+* index (in emacs, using C-c C-o to open the file
+  - [[file:coding/git.org][coding/git.org]] :: manual for git operations
+  - [[file:web/node.js.org][web/node.js.org]] :: misc tools in node.js: socket.io
+  - [[file:system/linux.org][system/linux.org]] :: general linux tools: web tools
+  - [[file:finance/tws.org][finance/tws.org]] :: headless controller for IB gateway and connection

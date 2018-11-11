@@ -1,0 +1,21 @@
+* external ip and port
+  -curl ifconfig.me/port
+  -curl ifconfig.me/ip
+
+* introductiom
+  - curl default is to get a web, with full url path
+  - curl -I is to fetch the head only
+  - curl x y z curl process multiple address
+  - curl --trace-ascii dump www.example.com
+    + this show everything curl sends and receives
+  - curl --trace-ascii dump --trace-time  www.example.com
+    + this also tracks the time
+  - curl --resolve www.example.org:80:127.0.0.1 http://www.example.org/ using uri instead
+  - curl --proxy http://proxy.example.org:4321 http://remote.example.org/
+  - curl -u user:password http://example.org/
+
+  - curl -d key=value to post a method
+  - curl -d key=value --next ..., to reset a post method
+* html forms      
+
+
