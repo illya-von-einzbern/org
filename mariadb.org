@@ -1,0 +1,22 @@
+* account management
+** check account
+   #+BEGIN_SRC mysql
+    select user();
+    use mysql;
+    select user,host,password from user;
+
+   #+END_SRC
+   
+**  user management
+  
+   #+BEGIN_SRC mysql
+
+    grant all privileges on *.* to 'xxx'@'yyyy' identified by 'xxx' with grant option; # all privileges with grant
+    grant select on stock.* to 'umbrella'@'%' identified by 'umbrella';  # read only
+    grant select on futures.* to 'umbrella'@'%' identified by 'umbrella';
+    FLUSH PRIVILEGES;
+
+    drop user 'root'@'%';   
+   #+END_SRC
+
+
